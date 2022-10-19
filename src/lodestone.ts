@@ -3,7 +3,7 @@ import { parse } from 'node-html-parser';
 import RSS from 'rss';
 import fs from 'fs/promises';
 
-const PREFIX = 'https://mtib.dev/';
+const PREFIX = 'https://feeds.mtib.dev/';
 const lodestoneURLs = [
     new URL('https://na.finalfantasyxiv.com/lodestone/news/'),
     new URL('https://eu.finalfantasyxiv.com/lodestone/news/'),
