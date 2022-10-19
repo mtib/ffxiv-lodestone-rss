@@ -16,6 +16,9 @@
     "buffer": "^6.0.3",
     "process": "^0.11.10"
   },
+  "scripts": {
+    "build": "parcel build"
+  },
   "targets": {
     "cli": {
       "source": "src/lodestone.ts",
