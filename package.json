@@ -1,0 +1,31 @@
+{
+  "name": "lodestone-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Markus Becker <mtib.becker@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.11.2",
+    "@types/rss": "^0.0.29",
+    "axios": "^1.1.3",
+    "node-html-parser": "^6.1.1",
+    "parcel": "^2.7.0",
+    "rss": "^1.2.2"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "process": "^0.11.10"
+  },
+  "targets": {
+    "cli": {
+      "source": "src/lodestone.ts",
+      "engines": {
+        "node": ">=17"
+      },
+      "context": "node",
+      "outputFormat": "commonjs",
+      "includeNodeModules": true,
+      "distDir": "./dist"
+    }
+  }
+}
